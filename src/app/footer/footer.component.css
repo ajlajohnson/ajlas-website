@@ -1,0 +1,37 @@
+.footer{   
+    position: absolute;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    text-decoration: none;
+    border: 3px solid #67554a;
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav-item{
+    font-size: 28px;
+    color:#67554a;
+    text-decoration: none;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .footer, footer {
+        padding: 0;
+        width: 100%;
+    }
+
+    .link {
+        padding: 0;
+        text-shadow: 1px 0px #67554a;
+        font-size: 35px;
+    }
+
+}
